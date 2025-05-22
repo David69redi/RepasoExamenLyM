@@ -1,0 +1,44 @@
+<html lang="es">
+  <head>
+    <script src="./scripts/script.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario Hogwarts</title>
+  </head>
+  <body>
+    <header>
+      <button id="buttonBurguer">|||</button>
+      <nav class="oculta" id="casas">
+        <!-- Insertar casas -->
+      </nav>
+    </header>
+
+    <main class="borde">
+      <h1>BIENVENIDO A HOGWARTS</h1>
+      <form id="formulario">
+        <label>
+          <span>Nombre</span>
+          <input value="" name="nombre" type="text" />
+        </label>
+        <label>
+          <span>Apellido</span>
+          <input value="" name="apellido" type="text" />
+        </label>
+        <label>
+          <span>Fecha de Nacimiento</span>
+          <input value="" name="fechaNacimiento" id="inputFecha" type="date" />
+        </label>
+        <footer>
+          <label>
+            <span>Casa</span>
+            <select name="casa" id="desplegableCasa">
+              <option value="" disabled selected>Selecciona</option>
+            </select>
+          </label>
+          <button id="enviar" type="submit">Enviar</button>
+        </footer>
+      </form>
+    </main>
+  </body>
+</html>

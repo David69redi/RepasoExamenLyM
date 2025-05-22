@@ -3,7 +3,7 @@ const elementInputFecha = document.querySelector("#inputFecha");
 const elementNavCasas = document.querySelector("#casas");
 const elementFormulario = document.querySelector("#formulario");
 
-const listaCasas = ["Griffyndor", "Slytherin", "Ravenclaw", "Hufflepuff"];
+const listaCasas = ["Gryffindor", "Slytherin", "Ravenclaw", "Hufflepuff"];
 const arrayAlumnos = new Set();
 
 window.addEventListener("load", () => {

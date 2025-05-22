@@ -1,3 +1,8 @@
+:root {
+  --background: #f0f0f0
+  --color-title: gray;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -13,6 +18,31 @@
   transform: translateY(-100%);
   
 }
+
+.casa-title {
+  color: var(--color-title)
+}
+
+.gryffindor {
+  --background: red;
+  --color-title: #fff;
+}
+  
+.hufflepuff {
+  --background: rgb(255, 165, 0);
+  --color-title: #f3dd18;
+}
+  
+.slytherin {
+  --background: green;
+  --color-title: #144605;
+}
+  
+.ravenclaw {
+  --background: blue;
+  --color-title: #590aeb;
+}
+
 
 header {
   display: flex;
@@ -56,6 +86,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: var(--background);
 }
 
 main {
